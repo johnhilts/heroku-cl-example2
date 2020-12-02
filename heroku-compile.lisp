@@ -3,7 +3,7 @@
 (print ">>> Building system....")
 (require 'asdf)
 (asdf:disable-output-translations)
-;; (require-quicklisp)
+(require-quicklisp)
 (ql:quickload :hunchentoot)
 (print ">>> Done building system")
 
